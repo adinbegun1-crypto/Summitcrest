@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Summitcrest Capital provides strategic investment and advisory services for founders, families, and institutions."
+    />
+    <title>Summitcrest Capital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#" class="brand" aria-label="Summitcrest Capital home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 120 120" role="img">
+              <defs>
+                <clipPath id="logoCircle">
+                  <circle cx="60" cy="60" r="56"></circle>
+                </clipPath>
+              </defs>
+              <circle cx="60" cy="60" r="56" class="logo-bg"></circle>
+              <g clip-path="url(#logoCircle)">
+                <path class="logo-peak" d="M20 74 L50 34 L60 48 L74 24 L105 74 Z"></path>
+                <path class="logo-water" d="M7 78 C26 74, 96 74, 113 78 L113 92 C95 98, 25 98, 7 92 Z"></path>
+                <path class="logo-reflect" d="M23 88 C36 85, 45 86, 53 89 C47 92, 35 94, 24 92 Z"></path>
+                <path class="logo-reflect" d="M69 89 C78 86, 90 86, 100 89 C93 92, 81 94, 70 92 Z"></path>
+              </g>
+            </svg>
+          </span>
+          <span class="brand-text">
+            <span class="brand-name">SUMMITCREST</span>
+            <span class="brand-sub">CAPITAL</span>
+          </span>
+        </a>
+        <nav class="main-nav" aria-label="Primary">
+          <a href="#services">Services</a>
+          <a href="#approach">Approach</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Private Capital & Strategic Advisory</p>
+            <h1>Helping bold companies scale with disciplined capital.</h1>
+            <p class="lead">
+              Summitcrest Capital partners with visionary operators and long-term
+              investors to unlock sustainable growth across key sectors.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#contact">Schedule a Consultation</a>
+              <a class="btn btn-ghost" href="#services">Explore Services</a>
+            </div>
+          </div>
+          <aside class="hero-card" aria-label="Investment focus areas">
+            <h2>Focus Areas</h2>
+            <ul>
+              <li>Growth Equity</li>
+              <li>Strategic M&A Advisory</li>
+              <li>Family Office Portfolio Support</li>
+              <li>Infrastructure & Energy Transition</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <h2>What We Do</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>Investment Partnership</h3>
+              <p>
+                Flexible growth capital tailored to your operating model and market timing.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Strategic Advisory</h3>
+              <p>
+                Board-level guidance on acquisitions, divestitures, and strategic positioning.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Value Creation</h3>
+              <p>
+                Post-investment support across talent, operations, and capital strategy.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="approach" class="section section-alt">
+        <div class="container two-col">
+          <div>
+            <h2>Our Approach</h2>
+            <p>
+              We combine deep sector insight with rigorous underwriting to make
+              thoughtful, long-horizon decisions. Every engagement is built on
+              clarity, accountability, and measurable outcomes.
+            </p>
+          </div>
+          <ul class="stats">
+            <li><strong>15+</strong><span>Years of leadership experience</span></li>
+            <li><strong>$1B+</strong><span>Transaction value advised</span></li>
+            <li><strong>100%</strong><span>Commitment to long-term partnership</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container contact-block">
+          <h2>Start a Conversation</h2>
+          <p>
+            Tell us about your objectives and we’ll connect with the right Summitcrest
+            Capital team member.
+          </p>
+          <a class="btn btn-primary" href="mailto:hello@summitcrestcapital.com"
+            >hello@summitcrestcapital.com</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Summitcrest Capital. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
